@@ -93,3 +93,58 @@ p {
 .clara .fuente {
   color: var(--gris-oscuro);
 }
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+  background: var(--azul);
+  color: var(--claro);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: clamp(1.75rem, 3.5vw, 3rem);
+}
+
+.tarjeta span {
+  color: var(--gris-claro);
+  font-family: "Public Sans", Arial, sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+
+.barras {
+  display: grid;
+  gap: 20px;
+}
+
+.fila {
+  display: grid;
+  grid-template-columns: minmax(90px, 200px) 1fr minmax(80px, auto);
+  align-items: center;
+  gap: 16px;
+  font-size: clamp(1.1rem, 2vw, 1.75rem);
+  font-weight: 600;
+}
+
+.fila strong {
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: clamp(1.75rem, 3.5vw, 3rem);
+}
+
+.pista {
+  height: 48px;
+}
+
+.barra {
+  height: 100%;
+  background: var(--ambar);
+}
+
+.barra.gris {
+  background: #7D8AA3;
+}
