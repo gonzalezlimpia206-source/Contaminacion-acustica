@@ -259,3 +259,14 @@ h3 {
   color: var(--claro);
   font-size: 1rem;
 }
+
+#gracias {
+  background:
+    linear-gradient(rgba(20, 33, 61, 0.75), rgba(20, 33, 61, 0.75)),
+    url("imagenes/fondo-gracias.jpg") center / cover no-repeat;
+  color: var(--claro);
+}
+
+#gracias .subtitulo {
+  color: var(--claro);
+}
